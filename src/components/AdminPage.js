@@ -6,8 +6,8 @@ import '../App.css';
 const AdminPage = () => {
 
     const [user, setUser] = useState({
-        username: '',
-        password: ''
+        username: 'admin',
+        password: '1234567'
     });
 
     const [err, setErr] = useState('');
